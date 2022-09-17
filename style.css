@@ -7,6 +7,7 @@ body {
     padding: 100px;
     box-sizing: border-box;
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -30,3 +31,9 @@ body {
     box-shadow: 1px 1px 5px #02a298aa, 
                 1px 1px 15px #02a298aa;
 }
+
+/* 
+    git add .
+    git commit -m "ololo"
+    git push origin master
+*/
