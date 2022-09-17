@@ -6,7 +6,9 @@ body {
     min-height: 100vh;
     padding: 100px;
     box-sizing: border-box;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    /* display: flex; */
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -37,3 +39,7 @@ body {
     git commit -m "ololo"
     git push origin master
 */
+
+.card:first-child {
+    grid-column-end: span 6;
+}
